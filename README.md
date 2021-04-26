@@ -7,4 +7,4 @@
 * Install dependencies from requirements.txt: &nbsp; pip install -r requirements.txt 
 * Make sure that the virtual environment you created is activated
 * To start the application type in your terminal: &nbsp; uvicorn main:app --reload
-* Now open your web browser and type http://127.0.0.1:8000
+
