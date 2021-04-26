@@ -1,4 +1,4 @@
-## <img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/fast.png">  &nbsp; FastAPI Secret
+## <img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/speed.png">  &nbsp; FastAPI Secret
 ### This is a simple Python application powered by FastAPI. Its main function is to utilize an encryption algorithm and apply it to HTTP basic authentication scheme. 
 --------------------------------------------------
 
