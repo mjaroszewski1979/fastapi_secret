@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{{ url_for('static', path='/style.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', path='/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ url_for('static', path='/favicon.ico') }}" type="image/x-icon">
+    <title>Secret Key</title>
+</head>
+<body>
+<div class="main">
+    <form method="post" class="my_form">
+        <input type="text" name="name" placeholder="Please choose your username" required/>
+        <br>
+        <input type="text" name="password" placeholder="Please choose your password" required/>
+        <br>
+        <button type="submit" class="button">SEND</button>
+        <br>
+    </form>
+</div>
+<div class="result">
+    <h2>{{ msg }}</h2>
+</div>
+{% if pass_enc %}
+<div class="result">
+    <h2>Thank you {{ name }} for registering! Click <button class="button"><a href="/secret">HERE</a></button> to view your secret key. </h2>
+</div>
+{% endif %}
+</body>
+</html>
