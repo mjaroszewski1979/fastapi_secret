@@ -4,5 +4,5 @@
 
 ### Installation guide:
 * Clone the repository to your local machine
-* Install dependencies from requirements.txt: pip install -r requirements.txt 
-* To start the application type in your terminal: uvicorn main:app --reload
+* Install dependencies from requirements.txt: &nbsp; pip install -r requirements.txt 
+* To start the application type in your terminal: &nbsp; uvicorn main:app --reload
